@@ -1,9 +1,9 @@
 module.exports = {
     app: {
-        token: process.env.DISCORD_TOKEN ||,
-        playing: 'by the Community ❤️',
+        token: process.env.DISCORD_TOKEN,
+        playing: 'by the SHADOW ❤️',
         global: true,
-        guild: process.env.GUILD_ID ||"YOUR_BOT_TOKEN_HERE",
+        guild: process.env.GUILD_ID,
         extraMessages: false,
         loopMessage: false,
         lang: 'en',
