@@ -3,7 +3,7 @@ module.exports = {
         token: process.env.DISCORD_TOKEN ||,
         playing: 'by the Community ❤️',
         global: true,
-        guild: process.env.GUILD_ID ||,
+        guild: process.env.GUILD_ID ||"YOUR_BOT_TOKEN_HERE",
         extraMessages: false,
         loopMessage: false,
         lang: 'en',
